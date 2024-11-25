@@ -1,0 +1,32 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "A simple Pomodoro timer app with PWA features",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pomodoro-timer"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "pwa",
+    "nodejs",
+    "express"
+  ]
+}
